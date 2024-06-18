@@ -1,0 +1,61 @@
+.flex {
+    display: flex;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.vw {
+    max-width: 70vw;
+    margin: auto;
+}
+
+.z1 {
+    z-index: 2;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.vwlogin {
+    width: 70vw;
+}
+
+.vwlogo {
+    width: 57vw;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.topmargin {
+    margin-top: 21px;
+}
+
+.leftmargin {
+    margin-left: 25px;
+}
+.spacebetween{
+    justify-content: space-between;
+}
+:root {
+    --dark: rgb(20, 20, 20);
+    --yellow: rgb(253, 216, 53);
+    --blue: rgb(98, 0, 234);
+  
+    /* --c1: rgb(38, 70, 83);
+    --c2: rgb(42, 157, 143); */
+    --c1:#CC313D;
+    --c2:#F7C5CC;
+  
+    --left-color: var(--c1);
+    --right-color: var(--c2);
+  }
